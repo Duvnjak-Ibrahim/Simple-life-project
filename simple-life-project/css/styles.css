@@ -1,0 +1,356 @@
+/*  Fonts
+-----
+font-family: 'Lora', serif;
+font-family: 'Ubuntu', sans-serif;
+*/
+
+body {
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+
+/* =================
+Typography
+================= */
+
+h1 {
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    color: #143774;
+    font-size: 2rem;
+    margin: 0;
+}
+
+.subtitle {
+    font-weight: 700;
+    color: #1792d2;
+    font-size: .75rem;
+    margin: 0;
+}
+
+/* =================
+Layout
+================= */
+img{
+    object-fit: cover;
+}
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.container-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+header {
+    background: #f8f8f8;
+    padding: 2em 0;
+}
+
+@media (max-width: 675px) {
+    .container-nav {
+        flex-direction: column;
+    }
+    
+    header {
+        text-align: center;
+    }
+}
+
+/* navigation */
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin-left: 2em;
+}
+
+nav a {
+    text-decoration: none;
+    color: #707070;
+    font-weight: 700;
+    padding: .25em 0;
+}
+
+nav a:hover,
+nav a:focus {
+    color: #1792d2;
+}
+
+.current-page {
+    border-bottom: 1px solid #707070;
+}
+
+.current-page:hover {
+    color: #707070;
+}
+
+@media (max-width: 675px) {
+    nav ul {
+        flex-direction: column;
+    }
+    
+    nav li {
+        margin: .5em 0;
+    }
+}
+/* 
+====================================
+main section
+===================================== */
+.container1{
+    width: 67%;
+    
+    
+}
+
+.container2{
+    width: 27%;
+    text-align: center;
+    margin-top: 15px;
+   
+   
+}
+
+
+
+.life-image{
+     width: 100%;
+    height: 250px;
+    margin-top: 15px;
+}
+
+.img2{
+width: 100%;
+
+}
+
+.head-container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.date-comm{
+    font-size: 12px;
+}
+.p-span1{
+    color: #707070;
+    font-weight: bold;
+}
+h4{
+    color: #1792D2;
+    font-size: 14px;
+      
+}
+.h4-line{
+    border-bottom: 2px solid grey;
+}
+
+.head-container p{
+    font-size: 13px;
+}
+.food-image{
+ width: 198px;
+height: 242px;
+}
+.box1{
+    display: flex;
+ 
+}
+
+.container2 h2{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: #143774;
+}
+.para1{
+    padding: 20px;
+    
+}
+
+.work-img{
+     width: 198px;
+height: 242px;
+}
+
+.box2{
+    display: flex;
+}
+
+.para2{
+    margin-left: 20px;
+}
+
+.deco-img{
+     width: 198px;
+height: 242px;
+}
+
+.box3{
+    display: flex;
+    margin-bottom: 150px;
+}
+
+.para3{
+    margin-left: 20px;
+}
+
+
+
+p{
+    line-height: 20px;
+}
+
+.container2 h1{
+    font-weight: bold;
+}
+
+.container2 h2{
+    text-align: start;
+    padding-left: 10px;
+}
+
+h2{
+    color: #143774;
+}
+
+.container2 p{
+    color: #143774;
+}
+
+.box-one{
+    margin-top: 50px;
+}
+
+
+
+.sidebar-image1,
+.sidebar-image2,
+.sidebar-image3{
+    width: 100%;
+}
+
+.about-mePage{
+    padding: 20px;
+    border: 20px solid #EBEBEB;
+}
+
+
+.triple-box{
+    margin-top: 40px;
+    border: 20px solid #EBEBEB;
+}
+.triple-box p{
+    font-size: 18px;
+}
+
+.box-one{
+    width: 80%;
+    margin: 25px auto;
+    border-bottom: 1px solid gray;
+   
+}
+
+.box-two{
+    width: 80%;
+    margin: 25px auto;
+    border-bottom: 1px solid gray;
+   }
+
+.box-three{
+    width: 80%;
+    margin: 25px auto;
+   
+    
+}
+footer{
+    background: #143774;
+    text-align: center;
+  
+}
+
+footer h5{
+    color: #FFFFFF;
+    margin-bottom: 0;
+    padding-top: 20px;
+}
+footer p{
+    color: gray;
+    margin-top: 0;
+    padding-bottom: 20px;
+}
+
+.deco-img{
+      object-fit: cover;
+        object-position: left;
+}
+
+@media (max-width:675px){
+    .head-container{
+        display: block;
+    }
+    .container1{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .container2{
+        width: 90%;
+        margin: 0 auto;
+        
+    }
+    .triple-box{
+        padding-bottom: 100px;
+    }
+    .h4-line{
+        padding-bottom: 30px;
+    }
+    .box1{
+        display: block;
+        
+    }.box1 h1{
+        font-size: 20px;
+        margin-top: 0;
+    }.box2{
+         display: block;
+    }.box2 h1{
+        font-size: 20px;
+    }.box3{
+         display: block;
+    }.box3 h1{
+         font-size: 20px;
+    }.food-image{
+        width: 100%;
+       
+    }.work-img{
+        width: 100%;
+        
+    }.deco-img{
+         width: 100%;
+      
+    }
+    .img-date p,
+    .img-deco p,
+    .img-work p {
+        padding: 0;
+        margin: 0;
+        font-size: 12px;
+        text-align: end;
+    }.triple-box img{
+        width: 100%;
+        height: 100px;
+    }.triple-box p{
+        text-align: start;
+    }
+    
+}
